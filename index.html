@@ -29,15 +29,20 @@
 </select>
     </div>
 
-<div class="cantidad">
-<input type="number" min="0" max="100">
+    <div>
+        <input type="number" name="Precio sin IVA" id="SinIVA" readonly placeholder="Precio total sin IVA">
+    </div>
+
+<div>
+<input id="cantidad" type="number">
+<input type="submit" value="enviar" onclick= 'Cantidad()'>
 </div>
 
-<input type="button" value="enviar" onclick="cantidad">
+
 
 <div class="resultado">
 <input type="text">
 </div>
-
+<script src="/index.js"></script>
 </body>
 </html>
